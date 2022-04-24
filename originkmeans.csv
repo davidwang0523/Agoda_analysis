@@ -1,0 +1,457 @@
+﻿,飯店名稱,分群
+0,['奇異果快捷旅店 - 站前二館 (Kiwi Express Hotel – Taichung Station Branch II)'],第0群
+1,['林酒店 (The Lin Hotel)'],第0群
+2,['長榮桂冠酒店 - 台中 (Evergreen Laurel Hotel Taichung)'],第0群
+3,['兆品酒店 - 兆尹樓 (Maison de Chine  Chao Yin Building)'],第0群
+4,['草悟道文旅 (Calligraphy Greenway Hotel)'],第0群
+5,['台中順天環匯酒店 (The Huan Hotel Taichung)'],第0群
+6,['台中逢甲文華道 (Taichung Fengjia In One City Inn)'],第0群
+7,['台中逢甲星享道酒店 (Taichung Fengjia In Sky Hotel)'],第0群
+8,['雙星大飯店  (Twinstar Hotel)'],第0群
+9,['台中市政御璽 (Taichung City Visa)'],第0群
+10,['台中日月千禧酒店 (Millennium Hotel Taichung)'],第0群
+11,['永豐棧酒店 (Tempus Hotel)'],第0群
+12,['宜舍單人旅店 (Ease Single Inn)'],第0群
+13,['伴畔旅店 - 八糎米文旅 (Hotel Half)'],第0群
+14,['台中SOGO勤美旅居 C房 (C [Romance Full house C] great city view (Fashion))'],第0群
+15,['全國大飯店 (Hotel National)'],第0群
+16,['天韻精品旅館 (Ease Motel Taichung)'],第0群
+17,['探索私旅 (Explore Hotel)'],第0群
+18,['台中金典酒店 (Splendor Hotel)'],第0群
+19,['台中商旅 (Hung’s Mansion)'],第0群
+20,['台中大毅老爺行旅 (The Place Taichung)'],第0群
+21,['天閣酒店台中館 (Tango Hotel TaiChung)'],第0群
+22,['兆品酒店 - 品臻樓 (Maison de Chine – Pin Chen Building)'],第0群
+23,['豐邑逢甲商旅 (La Vida Hotel)'],第0群
+24,['金典綠園道商旅 (Park Lane Inn)'],第0群
+25,['台中鳳凰酒店 (Phoenix Hotel Taichung)'],第0群
+26,['西區公寓套房 - 39平方公尺/1間專用衛浴 (Park Lane Trip Inn)'],第0群
+27,['薆悅酒店五權館 (Inhouse Hotel Grand)'],第0群
+28,['台中裕元花園酒店 (Windsor Hotel)'],第0群
+29,"['北區公寓套房 - 20平方公尺/1間專用衛浴 (Room D, xinglin home)']",第0群
+30,['KUN Hotel逢甲 (Kun Hotel)'],第0群
+31,['永豐棧酒店大墩 (Tempus Hotel Da-Dun)'],第0群
+32,['台中豐邑MOXY酒店 (Moxy Taichung)'],第0群
+33,['清水區的1臥室獨棟住宅 - 30平方公尺/1間專用衛浴 (Joy B & B)'],第1群
+34,['GOGO回行旅逢甲館 (ICASA BY GOGO HOTEL)'],第0群
+35,['Hotel 7 逢甲 (Hotel 7 Taichung)'],第0群
+36,['西屯區的1臥室獨棟住宅 - 6平方公尺/1間專用衛浴 (Taichung | 共生公寓-青｜短租｜月租｜單雙人不選房 | 近東海商圈 | 望高寮夜景)'],第0群
+37,['Old School - 田中央旅店 (Old School - Central Land Hotel)'],第0群
+38,['新驛旅店台中車站店 (CityInn Plus Taichung Station Branch)'],第0群
+39,['日日逢甲 (Day Day Fengjia)'],第0群
+40,['寶島53行館 (53 Hotel)'],第0群
+41,['逢甲隱和旅 (Fengchia INNK Hotel)'],第0群
+42,"['北區公寓套房 - 20平方公尺/1間專用衛浴 (Room E, xinglin home)']",第0群
+43,['中科大飯店 (Zhong Ke Hotel)'],第0群
+44,['台中福華大飯店 (Howard Prince Hotel Taichung)'],第0群
+45,['成旅晶贊飯店 - 台中民權 (Park City Hotel Central Taichung)'],第0群
+46,['MINI HOTELS - 台中火車站館 (MINI HOTELS (Taichung Station Branch))'],第0群
+47,['碧根逢甲酒店 (Taichung Fengjia Beacon Hotel)'],第0群
+48,['西悠飯店台中店 (CU Hotel Taichung)'],第0群
+49,['紅點文旅 (Red Dot Hotel)'],第0群
+50,['逢甲客居 (Feng Jia Homestay)'],第0群
+51,['薆悅酒店台中館 (Inhouse Hotel Taichung)'],第0群
+52,['頭等艙飯店台中綠園道館 (Airline Inn Taichung Green Park Way)'],第0群
+53,['赫絲珀HSR高鐵行旅 (Hotel Hesper HSR - Taichung)'],第0群
+54,['大雅區的1臥室獨棟住宅 - 50平方公尺/1間專用衛浴 (Wheat Guesthouse(2F)麥香小棧)'],第0群
+55,['卡爾登飯店台中館 (The Carlton (Taichung))'],第0群
+56,['塔木德酒店台中館 (Talmud Hotel Taichung)'],第0群
+57,['承攜行旅黎客逢甲館 (Guide Hotel LiKe Feng Chia)'],第0群
+58,['福容大飯店 - 麗寶樂園 (Lihpao Resort)'],第1群
+59,['水雲端旗艦概念旅館 (Icloud Luxury Resort and Hotel)'],第0群
+60,['台中1916上水源地Room3B - 帶獨立衛浴距一中街一中商圈1分鐘中友百貨5分鐘台中火車站8分鐘 (Taichung(Yizhong.st)- 1916Fountainhead(Room 3B))'],第0群
+61,['植光花園飯店 (SOF Hotel)'],第0群
+62,['葉綠宿旅館 - 逢甲館 (Green Hotel-Fengjia)'],第0群
+63,['台中1916上水源地Room3A - 帶獨立衛浴距一中街一中商圈1分鐘中友百貨5分鐘台中火車站8分鐘 (Taichung(Yizhong.st)- 1916Fountainhead(Room 3A))'],第0群
+64,['清新溫泉飯店 (Freshfields Hotel)'],第0群
+65,['嬉行旅 (Hotel Si)'],第0群
+66,['晴宿逢甲 (Fengjia Sunny Stay)'],第0群
+67,['薇米商旅 (Wemeet Boutique Hotel Taichung)'],第0群
+68,['台中日光溫泉會館 (The Sun Hot Spring Resort)'],第0群
+69,['逢甲金瑞文旅 (GOLD HOTEL)'],第0群
+70,['House of Forest B&B'],第0群
+71,['希堤微旅 - 逢甲店 (Hotel Mapp)'],第0群
+72,['給恰旅店 (Getcha Hostel&Bistro)'],第0群
+73,['綠宿行旅 (Green Hotel - West District)'],第0群
+74,['桂之旅 (Hotel Kuei)'],第0群
+75,"[""康茵行旅 (Comin' place)""]",第0群
+76,['高苑商務旅館中山店 (Kao Yuan Hotel - Zhong Shan)'],第0群
+77,['來來商旅 (Lai Lai Hotel)'],第0群
+78,['路得行旅國際青年旅館台中站前館 (Norden Ruder Hostel Taichung)'],第0群
+79,['雲河概念旅館 (uherhotel)'],第0群
+80,['圖樂文旅 (Whoops Hotel)'],第0群
+81,['浮雲客棧 (Kloud Hotel)'],第0群
+82,['台中港酒店 (Taichung Harbor Hotel)'],第1群
+83,['麻雀巢行旅 (Sparrow Hotel)'],第0群
+84,['余舍行旅 (Royal Roi Hotel)'],第0群
+85,['沐蘭精品旅館 - 台中館 (Mulan Motel)'],第0群
+86,['台中威汀城市酒店 (Hotel Reve Taichung)'],第0群
+87,['MINI HOTELS - 逢甲館 (MINI HOTELS (Feng Jia Branch))'],第0群
+88,['富盛商旅 (GOGO HOTEL)'],第0群
+89,['承億文旅 台中鳥日子 (Hotelday Taichung)'],第0群
+90,['龍谷觀光大飯店 (Dragon Vally Hotel and Paradise)'],第1群
+91,['夢想12旅店 (Dream 12 Hotel)'],第0群
+92,['KUN Tour Hotel逢甲 (KUN Tour Hotel)'],第0群
+93,['Hotel Z 逢甲 (Hotel Z)'],第0群
+94,['塔木德酒店一中館 (Talmud Hotel Yizhong)'],第0群
+95,['西悠飯店台中店 (CU Taichung INN)'],第0群
+96,['統一渡假村 - 谷關溫泉養生會館 (Uni Resort-KuKuan)'],第1群
+97,['朗舍行館 (Petrichor hotel)'],第0群
+98,['二八樹巷旅宿 (28shuxiang)'],第0群
+99,['天月人文休閒汽車旅館 (Moonlight Motel)'],第0群
+100,['璞樹文旅 (Treeart Hotel)'],第0群
+101,['企業家大飯店 (The Enterpriser Hotel)'],第0群
+102,['台中新幹線花園酒店 (Taichung Shinkansen Grand Hotel)'],第0群
+103,['富豪國際大飯店 (Regal International Hotel)'],第0群
+104,['水舞行館 (SHUEI WU MOTEL)'],第0群
+105,['Tian xing (Tian xing )'],第0群
+106,['極光情境旅館 (Aurora Motel)'],第0群
+107,['涵館汽車旅館 (Han Guan Motel)'],第0群
+108,['挪威森林文創館'],第0群
+109,['時空行旅 (Time Flyer Hotel)'],第0群
+110,['富信大飯店 台中店 (Fushin Hotel Taichung)'],第0群
+111,['臺中公園智選假日飯店 (Holiday Inn Express Taichung Park)'],第0群
+112,['高苑商務旅館中正店 (Kao Yuan Hotel - Zhong Zheng)'],第0群
+113,['臺中沐夏時尚精品旅館 (Moonshy Boutique Motel Taichung)'],第0群
+114,['旅巷自在輕旅 (Loosha Hostel)'],第0群
+115,['翰詮大飯店 (Hunt Champion Hotel)'],第1群
+116,['台中萬楓酒店 (Fairfield by Marriott Taichung)'],第0群
+117,['漫旅光城 (Slow Town Hotel - Glowing)'],第0群
+118,['縵和旅居 (Manho Hotel)'],第0群
+119,['愛麗絲國際大飯店 (Aeris International Hotel)'],第0群
+120,['梨山賓館 (Li Shan Guest House)'],第2群
+121,['台中愛戀旅店 (Taichung Amour Hotel)'],第0群
+122,['小西城旅店 (Mini West Hotel)'],第0群
+123,['米卡沙旅店  (Hotel Mi Casa)'],第2群
+124,['星漾商旅 - 台中一中館 (Stay Hotel)'],第0群
+125,['意文大飯店 (E Moon Hotel)'],第0群
+126,['一中宿喜 (Adagio Hostel)'],第0群
+127,['葉綠宿站前館-川閱 (Green Hotel - Midori)'],第0群
+128,['台中旭日文旅 (Raise Hotel Taichung)'],第0群
+129,['覓玥精品時尚旅館 (MIYUE MOTEL)'],第0群
+130,['誠星青年旅館 (Star Hostel Taichung Parklane)'],第0群
+131,['台中逢甲米樂旅店 (Miller Inn)'],第0群
+132,['逗點 INN (DDINN Hotel)'],第0群
+133,['逢甲伯達行旅 (Boda Hotel Taichung)'],第0群
+134,['綠夜文旅 (Greenight Hotel)'],第0群
+135,['城中城飯店 (City Center Hotel)'],第0群
+136,['臺中逢甲智選假日飯店 (Holiday Inn Express Taichung Fengchia)'],第0群
+137,['豐原后豐商務會館 (Ho Fong Business Stay)'],第0群
+138,['黑金文旅 (K.Gold)'],第0群
+139,['台中博客創意旅店 (Taichung Box Design Hotel)'],第0群
+140,['奇異果快捷旅店 - 站前一館 (KIWI EXPRESS HOTEL-Taichung Station Branch 1)'],第0群
+141,['逢甲好眠 (FengJia Tonight Hostel)'],第0群
+142,['蘭夏會館 (Lanshy Boutique Motel)'],第0群
+143,['逢甲微行商旅 (Micro Hotel)'],第0群
+144,['梅林親水岸 (Maylin)'],第0群
+145,['城市漫遊行旅 (Hotel Ramble)'],第0群
+146,['想想家 (Allegro Hostel)'],第1群
+147,['漂鳥草悟道 (Stray Birds Taichung Hostel)'],第0群
+148,['楓華沐月台灣大道行館 (Hotel Maple Taiwan Boulevard)'],第2群
+149,['質青宿 (Andante Hostel)'],第0群
+150,['川賦商旅 (Chuan Fu Hotel)'],第0群
+151,['大墩街旅店 (Da Dun Street Inn)'],第0群
+152,['璽朵精品汽車旅館 (Chateau Motel)'],第0群
+153,['巢。旅宿 (Su Taichung Hostel)'],第0群
+154,['防疫旅館|芭蕾城市渡假旅店 (Villa Ballet (Quarantine Hotel))'],第0群
+155,['台中一中時尚商旅 (Taichung One Chung Business Hotel)'],第0群
+156,['莿桐花文創微旅 (Taichung Napas Hotel)'],第0群
+157,['第五大道汽車旅館 (Fifth Avenue Motel)'],第0群
+158,['紫禁城MOTEL主題會館 (Forbidden City Motel)'],第0群
+159,['黃埔75旅店 (Unique 75 Hotel)'],第0群
+160,['台中世聯商旅 (Linkworld Hotel Taichung)'],第0群
+161,['賀緹酒店 (He Ti Hotel)'],第0群
+162,['富比世大飯店 (Forbes hotel)'],第0群
+163,['風華嚼旅 (Aroma Chew Hotel)'],第0群
+164,['米奇汽車旅館 (Micky Motel)'],第0群
+165,['新盛橋行旅 (Shin Sei Bashi Hotel)'],第0群
+166,['LIANN Hotel 黎安商旅 (LIANN Hotel)'],第0群
+167,['海頓汽車旅館 (Hae Duenn Motel)'],第0群
+168,['悅樂旅店--台中'],第0群
+169,['Unique Hotel - 微笑73旅店 (Unique hotel - Smile 73 Hotel)'],第0群
+170,['愛萊時尚旅館 (Ai-Lai Fashion Hotel)'],第0群
+171,['杜拜風情時尚旅館 (Dubai Villa Motel)'],第0群
+172,['挪威森林漫活休閒旅館 (Norway Forest Leisure Motel)'],第0群
+173,['金滿家大飯店 (Jin Man Jia Hotel)'],第0群
+174,['議蘆會館 僅提供參訪住宿'],第0群
+175,['谷關飯店 (Ku Kuan Hotel)'],第1群
+176,['歐風商旅 (All Fun Business Hotel)'],第0群
+177,['悅河精品旅館 (VOGA PIC MOTEL)'],第0群
+178,['台中之星設計旅店 (Motel Stars-Business)'],第0群
+179,['雲平精品旅館 (Yunping motel)'],第0群
+180,['一中漫走民宿旅店 (Taichung Easylazy Inn)'],第0群
+181,['叮噹旅舍 (Hotel Bell)'],第0群
+182,['新福商務飯店 (Sin Fu Business Hotel)'],第0群
+183,['安可旅店 (Bravo Hotel)'],第0群
+184,['歐遊國際連鎖精品旅館 - 台中館 (All-Ur Boutique Motel-Tai Chung Branch)'],第0群
+185,['木木行館 (Motel Lin)'],第0群
+186,['皇星商旅中港館 (Huang Shin Business Hotel-Chung Kang)'],第0群
+187,['台中拓程商旅 (The Galerie Hotel)'],第0群
+188,['茂華商旅 (Mao Hua Motel)'],第1群
+189,['和樂商務旅館 (Hola Motel)'],第0群
+190,['台灣合作社聯合社台中會館 (Taichung Hall)'],第0群
+191,['台中傳思文旅 (Taichung Trans Inn)'],第0群
+192,['羅馬假期汽車旅館 (Roman Holiday Motel)'],第0群
+193,['H Inn 祥甫會館 (H Inn)'],第0群
+194,['北海大飯店 (North Sea Hotel)'],第0群
+195,['五都大飯店 (Grand City Hotel)'],第0群
+196,['想窩11餐旅館 (Shineworld 11)'],第0群
+197,['T11.T12賽車主題旅店 (T11T12 Hotel)'],第1群
+198,['撲克商旅 (AACEHOTEL)'],第0群
+199,['梧棲行旅 (OURSEA HOTEL)'],第1群
+200,['艾斯行旅 逢甲館 Es INN'],第0群
+201,['水悅麗緻會館 (Shui Yue Boutique Motel)'],第0群
+202,['荷米旅居 (Hommie inn)'],第0群
+203,['台中商旅 八仙山莊 (Basian Villas)'],第1群
+204,['惠來谷關溫泉會館 (Bali Nature Spa Hot Spring Resort)'],第1群
+205,['浪琴Motel文創旅館'],第0群
+206,['F HOTEL台中麗加園邸 (Lichia Royal Garden Hotel)'],第0群
+207,['安順商務旅館 (Anshun Hotel)'],第0群
+208,['夏都精品汽車旅館 (Xiadu Motel)'],第0群
+209,['默默旅宿 (Mo BnB)'],第1群
+210,['福爾摩沙聯盟草悟道酒店 (Formosa Corridor Hotel)'],第0群
+211,['圖格旅 (TG Hostel)'],第0群
+212,['音樂世界旅邸 (Classic Delight)'],第0群
+213,['時間軸食宿工坊 (Timeline cafe studio)'],第0群
+214,['春天國際旅館  (Spring Hotel)'],第0群
+215,['寄居蟹行旅 (The Hermit Inn)'],第1群
+216,['花沐蘭精品旅館  (Hua Mu Lan Hotel)'],第1群
+217,['歐菲旅店 (Old Friend Hotel)'],第0群
+218,['挪威森林行旅3號館 (Norway Forest Travel hotel 3 Taichung)'],第0群
+219,['明通行商旅 (Hotel Huru House)'],第0群
+220,['香榭商旅 (Champs Hotel)'],第0群
+221,['述夏汽車旅館 (shushia Motel)'],第0群
+222,['宇春商旅 (YU CHUN Hotel)'],第0群
+223,['青庭輕旅 (PartyO Hostel)'],第0群
+224,['背包41青年旅館 - 台中館 (Backpacker 41 Hostel-Taichung)'],第0群
+225,['玉坤田商務旅館 (Yu Kun Tien Hotel)'],第1群
+226,['久窩行旅一中館 (K Hotel - Yizhong)'],第0群
+227,['好瓦文旅 (Golden W Hotel)'],第0群
+228,['喬苑大飯店 (Chiao Yua Hotel)'],第0群
+229,['奇異果快捷旅店 - 中正店 (Kiwi Express Hotel -Zhongzheng Rd)'],第0群
+230,['大里春天溫泉SPA旅館 (Spring SPA Motel)'],第0群
+231,['東城年代旅舍 (DC Hotel)'],第0群
+232,['緣橋商務汽車旅館 (Yuan Chyau Motel)'],第0群
+233,['蘭那汽車旅館 (Lanna Motel)'],第0群
+234,['富帝大飯店 (Fu Di Hotel)'],第0群
+235,['和風汽車旅館 (Hefeng Motel                                                                                    )'],第0群
+236,['敦普文旅 (Taichung Dump Hotel)'],第0群
+237,['樂活行館Motel (Icolour Villa)'],第0群
+238,['華登商務大飯店 (Waugh Den Business Hotel)'],第0群
+239,['竹林雅致商務汽車旅館 (Refinement Motel)'],第0群
+240,['逢甲K行旅 (Fengjia K Hotel)'],第0群
+241,['逢甲發現幸福 (Feng Chia Enjoy)'],第0群
+242,['愛力根汽車旅館 (Alegran Motel)'],第1群
+243,['和和旅宿 (WT BnB Taichung)'],第1群
+244,['悅萊精品旅館 (Enjoy City Motel)'],第0群
+245,['唯居文旅 逢甲館 Only INN (ONLY INN)'],第0群
+246,['好客窩'],第0群
+247,['柳川居 (Sleeping Quilt)'],第0群
+248,['快樂腳旅棧 (Happy Inn & Hostel)'],第0群
+249,['享趣逢甲 (Night Fengjia Inn)'],第0群
+250,['雲月精品會館 (Kumotsuki Motel)'],第0群
+251,['麒麟峰溫泉會館 (Kylin Peak Hotspring Resort)'],第0群
+252,['一中安心租 禁菸 不是自助入住 紫外線酒精臭氧3道程序清消'],第0群
+253,['艾菲爾Motel文化旅店 (Affair Motel)'],第1群
+254,['春水漾精緻休閒旅館 (Spring Young Motel)'],第0群
+255,['華利大旅社 (Modern Inn)'],第0群
+256,['一中記憶旅程 (CN Hostel)'],第0群
+257,['禾康商務旅館 (Herkang Hotel)'],第0群
+258,['真正好旅店 (Good Hotel)'],第0群
+259,['草悟景觀公寓 (Niwill Homestay)'],第0群
+260,['明高溫泉 (Mingao Spring Hotel)'],第1群
+261,['嵩夏汽車旅館 (Song xia)'],第0群
+262,['我們有故事旅店 - 逢甲館 (Ours Hotel - Fengjia)'],第0群
+263,['過來旅店 (P&F Hotel)'],第0群
+264,['心圓精緻汽車旅館 (Xin Yuan Motel)'],第0群
+265,['鳥人創意旅店 (Birdman Motel)'],第0群
+266,['金采G11商旅 (G11 Hotel)'],第0群
+267,['麗寶自助民宿 (Fengyuan Lihpao Flower Expo)'],第0群
+268,['心驛旅館 (Herzs Hotel)'],第0群
+269,['法堤商旅 (Felicity Business Hotel)'],第0群
+270,['谷野民宿 (Goya Spring Resort)'],第1群
+271,['逢甲‧紅馬利 (Fenjia Lemu)'],第0群
+272,['松鶴山水  (Songhe ShanShuei B&B)'],第1群
+273,['台中威尼斯汽車旅館 (Venice Motel)'],第0群
+274,['曼特先生 (Mr.Mantter)'],第0群
+275,['心媞SPA休閒旅館 (Shining Motel)'],第0群
+276,['達斯旅店 (DAZZ INN)'],第0群
+277,['東海牛棚背包客棧  (Donghai Cottage Backpack Inn Suite)'],第0群
+278,['日出逢甲 (Shine Residence)'],第0群
+279,['高樓層豪景小宅 (Luxury House)'],第0群
+280,['逢甲夢想旅店 (Fengjia Smile House)'],第0群
+281,['和昕商旅 (Hosin Hotel)'],第0群
+282,['逢甲糖果屋 (Candy House)'],第0群
+283,['逢甲居 (FengJia Stay)'],第0群
+284,['閒雲小居會館 (Sharon Inn)'],第0群
+285,['鼎隆國際商旅 (Hotel Dion)'],第0群
+286,['城市水棧汽車旅館 (City Water Stack Motel)'],第0群
+287,['台中名帥大飯店- 國光台中館 (Taichung Good Ground Hotel)'],第0群
+288,['麗緹汽車旅館 (Liti Motel)'],第0群
+289,['潛立方旅館  (Divecube Hotel)'],第0群
+290,['金沙精品汽車旅館 (Jin Sha Motel)'],第0群
+291,['雀客旅館台中一中館 (CHECK inn Express Taichung YiZhong)'],第0群
+292,['皇星商旅 上安館 (Huang Shin Business Hotel-Shang An)'],第0群
+293,['62巷青年旅舍 (Lane62 Hostel)'],第0群
+294,['優勝美地汽車旅館中華會館 (Yosemite Motel - Chunghua Branch)'],第0群
+295,['塔木德酒店公園館 (Talmud Hotel Gongyuan)'],第0群
+296,['高鐵戀館 (Shantir Motel)'],第0群
+297,['米閣商旅 (Mi Ge Business hotel)'],第0群
+298,['簡愛汽車商務旅館 - 山西館 (Jane Eyre Motel)'],第0群
+299,['RaRa 旅宿 (RaRa Stay)'],第0群
+300,['怡達汽車旅館 (Eusta Motel)'],第0群
+301,['銀河別館 (Galaxy Hotel)'],第0群
+302,['梨的故事館 (Pear Story House)'],第1群
+303,['瑞君商務旅館 (Zaw Jung Business Hotel)'],第0群
+304,['踢‧生活背包客棧 (T-Life Hostel)'],第0群
+305,['露泉度假溫泉館 (Luquan Hotspring)'],第1群
+306,['星河商旅 (Galaxia Business Hotel)'],第0群
+307,['D.Y. Hotel'],第0群
+308,['甯玥小棧 - 近台中火車站 10坪電影房'],第0群
+309,['草而藝術旅宿 (Artistic Studio by gras)'],第0群
+310,['星月文旅  (Star Moon B&B)'],第1群
+311,['小鹿斑比'],第0群
+312,['麗心精品汽車旅館 (Li Hsin Motel)'],第0群
+313,['Brillant Home'],第0群
+314,['抵家DiJa民宿 (DiJa)'],第0群
+315,['御所 Palace'],第0群
+316,['金禧民宿 (Chin Hsi Homestay)'],第0群
+317,['逢甲Mr16 (Mr.16)'],第0群
+318,['風緻主題精品汽車旅館 (Fongchih Motel)'],第0群
+319,['楓采汽車旅館 (Mapleton SPA Motel)'],第0群
+320,['優勝美地汽車旅館太原會館  (Yosemite Motel - Taiyuan Branch)'],第0群
+321,['逢甲珍品旅宿 (Nu Stay)'],第0群
+322,['逢甲樂愛度假 (LOVE I Taichung Hostel)'],第0群
+323,['一中街格雷熊 活氧離子除病菌細菌 酒精消菌 實名制'],第0群
+324,['戀愛逢甲精品旅店 (Love Fengjia Colorful Hotel)'],第0群
+325,['佳佳鴨小棧'],第0群
+326,['框框背包客棧 (Kuang Kuang Hostel)'],第0群
+327,['一中夏天 (Meet Summer)'],第0群
+328,['風自然親子時尚旅宿 (Wind Natural Parent-child Inn)'],第1群
+329,['台中住宿逢甲 (Cinema lnn)'],第0群
+330,['台中高鐵民宿  (Taichung HSR Homestay)'],第0群
+331,['四季旅宿'],第0群
+332,['火柴盒青年旅館 (MatchBox Hostel)'],第0群
+333,['逢甲暮光旅店 (Fengjia Twilight Hotel)'],第0群
+334,['享自在生態園區 (Carefree Park)'],第0群
+335,['Space X Guest House 藝享旅宿'],第0群
+336,['驚奇青旅 (Surprise Homestay)'],第0群
+337,['花田民宿 (Garden Life Homestay B&B)'],第1群
+338,['迷鹿 Elk'],第0群
+339,['荷村 Motel'],第1群
+340,['逢甲輕旅宿  (Fengjia Travel Light)'],第0群
+341,['逢甲星空宿 (Sky Hostel)'],第0群
+342,['樂府大飯店 (Hotel Lo Fu)'],第0群
+343,['心戀逢甲 (Feng Chia Love Heart)'],第0群
+344,['美之旅商務飯店 (Mei Business Hotel)'],第0群
+345,['有機書店文旅 - 東勢店 (Dongshibookstore)'],第1群
+346,['后里庄園  (manor)'],第1群
+347,['逢甲沐馨 (FENG JIA MU XIN)'],第0群
+348,['逢甲久屋 (Nine House)'],第0群
+349,['一中迪士尼  (Yi Chung Disney)'],第0群
+350,['皇凱賓館 (Huang Kai Hotel                                                                            )'],第0群
+351,['love journey'],第0群
+352,['藝芝龜 (Art Turtle)'],第0群
+353,['Rin旅宿'],第0群
+354,['武陵富野渡假村 (Hoya Resort  Wuling)'],第2群
+355,['Beer Town'],第0群
+356,['日正當中'],第0群
+357,['Home stay'],第0群
+358,['台中沐逸居 (Taichung Muyi Ju)'],第0群
+359,['君瑞精品旅店 (Jung Zaw Hotel)'],第0群
+360,['逢甲蜻宿 (FengJia Qing Su Homestay)'],第0群
+361,['逢甲樓上-長短期租房'],第0群
+362,['有張床青年旅館 - 台中二館 (perBed Hostel - Taichung II)'],第0群
+363,['逢甲禮盒 (Fengjia Gift Box Homestay)'],第0群
+364,['逢甲捕夢網 (Dreamcatcher)'],第0群
+365,['逢甲小窩 (Fengjia Small House)'],第0群
+366,['Flower Tree'],第0群
+367,['后里柚子民宿'],第1群
+368,['逢甲美學院 (FengChia Beauty Hostel)'],第0群
+369,['逢甲楨棧 (Jhen Adores Homestay)'],第0群
+370,['逢甲嘟嘟房 (Fengchia DuDu House)'],第0群
+371,['台中逢甲hotel99 (taichung fengchia hotel99)'],第0群
+372,['逢甲哈樂地 (Fengchia Holiday)'],第0群
+373,['繽紛精品旅店 (Funja Colorful Hotel)'],第0群
+374,['享樂旅宿逢甲館 (Happines Trip Inn)'],第0群
+375,['台中逢甲 Victoria (Taichung FJ Victoria)'],第0群
+376,['童之心樂園 (Kids Heart Home)'],第0群
+377,['Melo house'],第0群
+378,['LOVE FOREST'],第0群
+379,['逢甲Jumbo (Jumbo house)'],第0群
+380,['星霖之家'],第0群
+381,['逢甲卡卡團體王 (FengChia kaka House)'],第0群
+382,['逢甲21團體王 (Feng Jia 21)'],第0群
+383,['逢甲普羅旺斯 (Fengchia Provence)'],第0群
+384,['寓旅Inn'],第0群
+385,['星漾商旅台中中清館(防疫旅館) (Stay Hotel - Taichung Zhongqing (Quarantine Hotel))'],第0群
+386,['Rden ching MOTEL'],第0群
+387,['亞特蘭大汽車旅館 (Atlanta Motel)'],第0群
+388,['逢甲樂居 (Fengjia Happy Stay)'],第0群
+389,['麗都平價商務旅館 (Rido Hotel)'],第0群
+390,['台中1916上水源地Room4A - 帶獨立衛浴距一中街一中商圈1分鐘中友百貨5分鐘台中火車站8分鐘 (Taichung(Yizhong street)-1916Fountainhead(Room 4B))'],第0群
+391,['劦陶宛陶藝民宿  (SHYE Lithuania Homestay)'],第1群
+392,['lover hommee'],第0群
+393,['潮青旅 (Dope Hostel)'],第0群
+394,['Qingle home T.W'],第0群
+395,['逢甲的3臥室別墅 - 209平方公尺/4間專用衛浴 (Huangcheng guest house)'],第0群
+396,['北區的1臥室公寓 - 12平方公尺/1間專用衛浴 (Cozy rooms3)'],第0群
+397,['星夜逢甲'],第0群
+398,['錦繡之莊'],第0群
+399,['東區的2臥室公寓 - 45平方公尺/2間專用衛浴 (Wiener 寵物友善旅館)'],第0群
+400,"['中區的1臥室獨棟住宅 - 22平方公尺/1間專用衛浴 (Beautifully decorated, independent with bathtub)']",第0群
+401,['希臘地中海旅館 (Greece Mediterranean B&B)'],第0群
+402,['菘畫居  (Song Hua Ju B&B)'],第1群
+403,['first love home (first love  home)'],第0群
+404,['大雪山莊園民宿 (King Villa)'],第1群
+405,['高美大有貨櫃民宿 (Komei Container Homestay)'],第1群
+406,['逢甲AS House (Fengjia AS House)'],第0群
+407,"[""熊爸民宿 (Papa Bear's Guesthouse)""]",第0群
+408,['一中街階旅'],第0群
+409,['一中采舍'],第0群
+410,['TW 台中小鎮 (TW台中小鎮)'],第0群
+411,['Deer Gaomei'],第1群
+412,['Yizhong trip 一中遊'],第0群
+413,['black pearl loved'],第0群
+414,['Easy 宿'],第0群
+415,['北區的1臥室公寓 - 15平方公尺/1間專用衛浴 (Just sleep)'],第0群
+416,"['北區的1臥室公寓 - 25平方公尺/1間專用衛浴 (Room B, xinglin home)']",第0群
+417,['逢甲 may House'],第0群
+418,['古都民宿 (gudu bed and breakfast)'],第1群
+419,['寵愛逢甲 (Pet Love Fengjia)'],第0群
+420,['中區的1臥室獨棟住宅 - 30平方公尺/1間專用衛浴 (E近臺中火車站，宮原眼科，一中商圈，12坪大空間，步行5到10分鍾即可到達!!設計師風格～全新裝修)'],第0群
+421,['台中｜ Taichung北歐別墅10-14人包棟｜逢甲夜市8分鐘｜市中心交通便捷｜北歐工業風'],第0群
+422,"['北區的1臥室別墅 - 19平方公尺/1間專用衛浴 (5002Yizhong hostel-double room suite,futon)']",第0群
+423,"[""南區的1臥室獨棟住宅 - 30平方公尺/1間專用衛浴 (Maymay's Home 咩咩的家  in Taichung 2 鄰近忠孝夜市二樓小透天)""]",第0群
+424,['逢甲的1臥室獨棟住宅 - 20平方公尺/1間專用衛浴 (Taichung Fengjia逢甲四人房主題套房步行3分鐘至夜市)'],第0群
+425,['森渼原 (ALIVE Glamping Base)'],第1群
+426,['北屯區的1臥室獨棟住宅 - 16平方公尺/1間專用衛浴 (Panda 302熊貓旅人全新科技套房（近潭子區頭家厝火車站入口）一應俱全純白復古文青風)'],第0群
+427,['百老匯碟影旅館 (Broadway Hotel)'],第0群
+428,['巧合大飯店 (Chance Hotel)'],第0群
+429,['北區的1臥室公寓 - 12平方公尺/1間專用衛浴 (Cozy rooms2)'],第0群
+430,['逢甲Jocy House (Fengjia Jocy House)'],第0群
+431,['北區的1臥室公寓 - 7平方公尺/1間專用衛浴 (KiKi 小屋禁菸套房)'],第0群
+432,"['西屯區的1臥室公寓 - 30平方公尺/1間專用衛浴 (Fengjia Night Market, 2 or 3 person elevator suite)']",第0群
+433,"[""南區的2臥室獨棟住宅 - 30平方公尺/1間專用衛浴 (Maymay's Home in Taichung 咩咩的家~忠孝夜市旁溫馨小屋)""]",第0群
+434,['西屯區的2臥室公寓 - 25平方公尺/1間專用衛浴 (Taichung HsuHouse)'],第0群
+435,"['北區公寓套房 - 20平方公尺/1間專用衛浴 (Room C, xinglin home)']",第0群
+436,['雲端商務旅館 (防疫旅館) (The Cloud Hotel (Quarantine Hotel))'],第0群
+437,['台中之星 精品館 (Motel Stars-Boutique)'],第0群
+438,['潭子區的1臥室獨棟住宅 - 34平方公尺/1間專用衛浴 (Queen201 皇后 (近頭家厝火車站) 超大坪數全新套房)'],第0群
+439,['逢甲白日夢旅宿'],第0群
+440,['Dreamwood Lodge 夢木小屋'],第1群
+441,['北區的1臥室獨棟住宅 - 22平方公尺/1間專用衛浴 (son room in Yizhong Business Circle)'],第0群
+442,['逢甲微笑雅緻 (Fengjia Smile)'],第0群
+443,['逢甲晨熙 (FengJia)'],第0群
+444,['東勢區的3臥室小屋 - 100平方公尺/3間專用衛浴 (Shueiwei House)'],第1群
+445,['潭子區的4臥室別墅 - 50平方公尺/2間專用衛浴 (Martin Home)'],第0群
+446,['西屯區公寓套房 - 20平方公尺/0間專用衛浴 (Big Bear Accommodation(we provide Tourist Charter))'],第0群
+447,['朵麗絲會館 (Doris Place)'],第1群
+448,['潭子區的1臥室獨棟住宅 - 13平方公尺/1間專用衛浴 (Reindeer 202光鹿旅人（近潭子區頭家厝火車站入口）一應俱全佳評如潮)'],第0群
+449,['挪威森林行旅1號館 (Norway Forest Travel hotel 1 Taichung)'],第0群
+450,['韓旅店 (Han hotel)'],第0群
+451,['卡帝亞汽車旅館 (Carther Motel Taichung)'],第0群
+452,['奇異果快捷旅店 - 捷運中清(防疫旅館) (KIWI EXPRESS HOTEL - MRT Zhongqing Branch (Quarantine Hotel))'],第0群
+453,['台中漫步忠孝 (Taichung Drift Inn)'],第0群
+454,['伊麗莎白酒店(防疫旅館) (Hotel Elizabeth (Quarantine Hotel))'],第0群
+455,['西苑旅店 (Garden Hotel Taichung)'],第0群

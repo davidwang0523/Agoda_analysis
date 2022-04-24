@@ -1,0 +1,130 @@
+import numpy as np
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn import preprocessing
+import matplotlib.pyplot as plt
+import warnings
+import re
+from statsmodels.tsa.holtwinters import ExponentialSmoothing, SimpleExpSmoothing, Holt
+warnings.filterwarnings('ignore')
+
+def picture(staytime, n):
+    staytimetemp = [None]*n
+    sum = 0
+    for i in range(n):
+        staytimetemp[i] = staytime[i]
+        sum += staytime[i]
+    # plt.figure(figsize=(20, 8))
+    # # Simple Exponential Smoothing
+    fit1 = SimpleExpSmoothing(list(reversed(staytimetemp))).fit(
+        smoothing_level=0.2, optimized=False)
+    yhat = fit1.predict(len(list(reversed(staytimetemp))))
+    # print(yhat)
+    # # plot
+    # l1, = plt.plot(list(fit1.fittedvalues) +
+    #                list(fit1.forecast(5)), marker='o')
+
+    fit2 = SimpleExpSmoothing(list(reversed(staytimetemp))).fit(
+        smoothing_level=0.6, optimized=False)
+    yhat = fit2.predict(len(list(reversed(staytimetemp))))
+    # print(yhat)
+    # # plot
+    # l2, = plt.plot(list(fit2.fittedvalues) +
+    #                list(fit2.forecast(5)), marker='o')
+
+    fit3 = SimpleExpSmoothing(list(reversed(staytimetemp))).fit()
+    # plot
+    yhat = fit3.predict(len(list(reversed(staytimetemp))))
+    # print(yhat)
+    # l3, = plt.plot(list(fit3.fittedvalues) +
+    #                list(fit3.forecast(5)), marker='o')
+
+    # l4, = plt.plot(list(reversed(staytimetemp)), marker='o')
+    # plt.legend(handles=[l1, l2, l3, l4], labels=[
+    #     'a=0.2', 'a=0.6', 'auto', 'data'], loc='best', prop={'size': 7})
+    print("算術平均數"+str(sum/n))
+    # plt.show()
+    return sum/n
+
+
+all = pd.DataFrame(columns=['飯店名稱', '平均停留時間', '距離市中心'])
+data = pd.read_csv('alltaichungdata_sortbydate.csv')  # 全部資料sort後
+datacount = pd.read_csv('datacount.csv')  # 各個飯店的count
+recent = 300  # 設定要幾天
+for i in range(len(datacount)):  # 沒有重複的id 且沒有評論等於0的飯店資料
+    temp = ''
+    distance = ''
+    apprix_1 = data.iloc[:datacount.iloc[i, 2], :]  # 切分出上方
+    if len(apprix_1) == 1:  # 假設只有一筆評價
+        temp = apprix_1.iloc[0, 6]
+    elif len(apprix_1) < recent:  # 沒有足夠多的評論
+        temp = picture((apprix_1['停留時間']).tolist(), len(apprix_1))
+    else:
+        temp = picture((apprix_1['停留時間']).tolist(), recent)
+
+    num = re.sub(u"([^\u0030-\u0039\u002e\uffe5])",
+                 "", str(apprix_1.iloc[0, 2]))
+    if num == '':
+        distance = 0
+    else:
+        distance = num
+    all = all.append(
+        {'飯店名稱': apprix_1.iloc[0, 1], '平均停留時間': temp, '距離市中心': distance}, ignore_index=True)
+    data = data.iloc[datacount.iloc[i, 2]:, :]
+
+print(all)
+
+def k_SSE(X, clusters):
+    """
+    拐點法
+    繪製不同的k值和對應總的簇內離差平方和的折線圖
+    """
+    # 選擇連續的K種不同的值
+    K = range(1, clusters+1)
+    # 構建空列表用於儲存總的簇內離差平方和
+    TSSE = []
+    for k in K:
+        # 用於儲存各個簇內離差平方和
+        SSE = []
+        kmeans = KMeans(n_clusters=k)
+        kmeans.fit(X)
+        # 返回簇標籤
+        labels = kmeans.labels_
+        # 返回簇中心
+        centers = kmeans.cluster_centers_
+        # 計算各簇樣本的離差平方和，並儲存到列表中
+        for label in set(labels):
+            SSE.append(np.sum((X.loc[labels == label, ]-centers[label, :])**2))
+        # 計算總的簇內離差平方和
+        TSSE.append(np.sum(SSE))
+
+
+    # 中文和負號正常顯示
+    plt.rcParams['font.sans-serif'] = 'SimHei'
+    plt.rcParams['axes.unicode_minus'] =False
+    # 設定繪畫風格
+    plt.style.use('ggplot')
+    # 繪製K的個數與TSSE的關係
+    plt.plot(K, TSSE, 'b*-')
+    plt.xlabel('簇的個數')
+    plt.ylabel('簇內離差平方和之和')
+    plt.show()
+
+all.to_csv('kmeans_data.csv', encoding='utf_8_sig')
+df = all.drop(columns=['飯店名稱'])
+# 標準化
+processdf = preprocessing.scale(
+    df, axis=0, with_mean=True, with_std=True, copy=True)
+k_SSE(processdf, 10)
+# print(processdf)
+# # 分群
+# kmeans = KMeans(n_clusters=4).fit(processdf)
+# # 質心
+# centroids = kmeans.cluster_centers_
+# # 視覺化
+# print(centroids)
+# plt.figure(figsize=(10, 8))
+# plt.scatter(processdf[:, 0], processdf[:, 1],
+#             c=kmeans.labels_.astype(float), s=50, alpha=0.5)
+# plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=50)
+# plt.show()

@@ -1,0 +1,168 @@
+import numpy as np
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn import preprocessing
+import matplotlib.pyplot as plt
+import warnings
+import re
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from scipy.spatial.distance import cdist
+from snownlp import SnowNLP
+import matplotlib.dates as mdates
+from datetime import datetime
+warnings.filterwarnings('ignore')
+
+
+all = pd.DataFrame(columns=['飯店名稱', '距離市中心', '人氣景點平均距離'])
+data = pd.read_csv('alltaichungdata_sortbydate.csv')  # 全部資料sort後
+datacount = pd.read_csv('datacount.csv')  # 各個飯店名稱以及飯店評論總數
+
+recent = 90  # 設定要幾天
+for i in range(len(datacount)):
+    temp = ''
+    distance = ''
+    apprix_1 = data.iloc[:datacount.iloc[i, 2], :]  # 切分dataframe上方
+    data = data.iloc[datacount.iloc[i, 2]:, :]
+
+    # 對distance使用正則表達式
+    if str(apprix_1.iloc[0, 2]).find('位於市中心') != -1:
+        distance = 0
+    elif str(apprix_1.iloc[0, 2]).find('查看地圖') != -1:
+        print(apprix_1.iloc[0, 1])
+        continue
+    else:  # 使用爬蟲到的距離
+        num = re.sub(u"([^\u0030-\u0039\u002e\uffe5])",
+                     "", str(apprix_1.iloc[0, 2]))
+        distance = num
+    all = all.append(
+        {'飯店名稱': apprix_1.iloc[0, 1], '距離市中心': distance, '人氣景點平均距離': datacount.iloc[i, 3]}, ignore_index=True)
+
+ # 最後選擇使用 距離市中心 以及人氣景點平均距離作為分析
+ # 原數據
+annotations = all['飯店名稱'].to_list()
+all.to_csv('kmeans_data.csv', encoding='utf_8_sig')
+df = all.drop(columns=['飯店名稱'])
+plt.figure(figsize=(10, 8))
+plt.xlabel('distanceofcitycenter')
+plt.ylabel('hot spot')
+plt.scatter(df['距離市中心'], df['人氣景點平均距離'], c='red', s=50)
+plt.title('original data')
+plt.savefig('original.jpg')
+plt.close()
+
+# 標準化
+scaler = preprocessing.MinMaxScaler(feature_range=(0, 1)).fit(df)
+processdf = scaler.transform(df)
+plt.figure(figsize=(10, 8))
+plt.xlabel('distanceofcitycenter')
+plt.ylabel('hot spot')
+plt.scatter(processdf[:, 0], processdf[:, 1], c='red', s=50)
+plt.title('minmaxscaler data')
+plt.savefig('minmaxscaler.jpg')
+plt.close()
+
+# k means determine k
+distortions = []
+K = range(1, 10)
+for k in K:
+    kmeanModel = KMeans(n_clusters=k).fit(processdf)
+    distortions.append(sum(np.min(cdist(
+        processdf, kmeanModel.cluster_centers_, 'euclidean'), axis=1)) / processdf.shape[0])
+# Plot
+plt.figure(figsize=(10, 8))
+plt.plot(K, distortions, 'bx-')
+plt.xlabel('k')
+plt.ylabel('Distortion')
+plt.title('The Elbow Method showing the optimal k')
+plt.savefig('choosek.jpg')
+plt.close()
+
+# 分群
+kmeans = KMeans(n_clusters=3).fit(df)
+# 質心
+centroids = kmeans.cluster_centers_
+# 視覺化
+# print(centroids)
+originalkmeans = pd.DataFrame(columns=['飯店名稱', '分群'])
+for i in range(len(annotations)):
+    originalkmeans = originalkmeans.append(
+        {'飯店名稱': annotations[i], '分群': '第'+str(kmeans.labels_[i])+'群'}, ignore_index=True)
+originalkmeans.to_csv('originkmeans.csv', encoding='utf_8_sig')
+plt.figure(figsize=(10, 8))
+plt.xlabel('distanceofcitycenter')
+plt.ylabel('hot spot')
+plt.scatter(df['距離市中心'], df['人氣景點平均距離'],
+            c=kmeans.labels_.astype(float), s=50, alpha=0.5)
+plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=50)
+plt.title('originalkmeans')
+plt.savefig('originalkmeans.jpg')
+plt.close()
+
+# 分群
+kmeans2 = KMeans(n_clusters=3).fit(processdf)
+# 質心
+centroids = kmeans2.cluster_centers_
+# 視覺化
+# print(centroids)
+minmaxscalekmeans = pd.DataFrame(columns=['飯店名稱', '分群'])
+for i in range(len(annotations)):
+    minmaxscalekmeans = minmaxscalekmeans.append(
+        {'飯店名稱': annotations[i], '分群': '第'+str(kmeans2.labels_[i])+'群'}, ignore_index=True)
+minmaxscalekmeans.to_csv('minmaxscalekmeans.csv', encoding='utf_8_sig')
+plt.figure(figsize=(10, 8))
+plt.xlabel('distanceofcitycenter')
+plt.ylabel('hot spot')
+plt.scatter(processdf[:, 0], processdf[:, 1],
+            c=kmeans2.labels_.astype(float), s=50, alpha=0.5)
+plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=50)
+plt.title('minmaxscalekmeans')
+plt.savefig('minmaxscalekmeans.jpg')
+plt.close()
+
+
+# Q2
+comment = pd.read_csv('alltaichungdata_sortbydate.csv')
+x = (comment['房客評論'].iloc[:1000]).tolist()
+y = (comment['checkin'].iloc[:1000]).tolist()
+
+
+def commentsentiment(s):
+    i = 0
+    sum = 0
+    for sentence in s.sentences:
+        print(sentence)
+        s1 = SnowNLP(s.sentences[i])
+        print(s1.sentiments)
+        i += 1
+        sum += s1.sentiments
+    print("--------"+str(sum/i)+"---------")
+    return sum/i
+
+
+datascore = pd.DataFrame(columns=['comment', 'checkin', 'score'])
+for i in range(90):
+    try:
+        x[i] = x[i].strip('[')
+        x[i] = x[i].strip(']')
+        x[i] = x[i].strip("'")
+        x[i] = x[i].replace('\\n', '，')
+        x[i] = x[i].replace(' ', '，')
+        s = SnowNLP(x[i])
+        temp = commentsentiment(s)
+        datascore = datascore.append(
+            {'comment': x[i], 'checkin': y[i], 'score': temp}, ignore_index=True)
+    except Exception:
+        continue
+datascore.to_csv('評論和正向評價分.csv', encoding='utf_8_sig')
+x = [datetime.strptime(date, "%Y-%m-%d").date()
+     for date in datascore['checkin']]
+print(x)
+
+plt.plot(x, datascore['score'], marker="o")
+plt.gcf().set_size_inches(9, 7)
+plt.title('sentiments')
+plt.savefig('sentiments.jpg')
+plt.close()
+
+datascore = datascore.sort_values(by='score', ascending=True)
+datascore.to_csv('依照負面排序.csv', encoding='utf_8_sig')
